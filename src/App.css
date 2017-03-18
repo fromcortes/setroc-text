@@ -1,0 +1,78 @@
+@import 'tachyons.min.css';
+
+p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+a { text-decoration: none; }
+
+.sans-serif { font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif; }
+.h01        { height: .3rem; }
+
+.bg-rainbow {
+  background-color: #B7B7B7;
+  -webkit-animation: rainbow 45s infinite;
+  animation: rainbow 45s infinite;
+  transition: all 45s ease-out;
+}
+
+.rainbow {
+  background-color: #B7B7B7;
+  -webkit-animation: rainbow 45s infinite;
+  animation: rainbow 45s infinite;
+  transition: all 45s ease-out;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.rainbow-hover:hover {
+  background-color: rgba(0,0,0,.5);
+  -webkit-animation: rainbow 15s infinite;
+  animation: rainbow 15s infinite;
+  transition: all 15s ease-out;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes rainbow {
+    10% { background-color: #2F46E3; }
+    20% { background-color: #AF97D6; }
+    30% { background-color: #1F169C; }
+    40% { background-color: #4CB586; }
+    50% { background-color: #FAB929; }
+    60% { background-color: #FFB39B; }
+    70% { background-color: #141D34; }
+    80% { background-color: #FF2F55; }
+    90% { background-color: #6993FF; }
+    95% { background-color: #FFC100; }
+}
+
+.spin {
+  -webkit-animation:spin 3s ease-in-out infinite;
+  -moz-animation:spin 3s ease-in-out infinite;
+  animation:spin 3s ease-in-out infinite;
+}
+
+@-moz-keyframes spin {
+  0%   { -moz-transform:rotate(0deg);
+         -moz-transform-origin: 50% 50%; }
+  50%  { -moz-transform:rotate(45deg);
+         -moz-transform-origin: 50% 50%; }
+  100% { -moz-transform: rotate(0deg);
+         -moz-transform-origin: 50% 50%; } }
+@-webkit-keyframes spin {
+  0%   { -webkit-transform:rotate(0deg);
+         -webkit-transform-origin: 50% 50%; }
+  50%  { -webkit-transform:rotate(45deg);
+         -webkit-transform-origin: 50% 50%; }
+  100% { -webkit-transform: rotate(0deg);
+         -webkit-transform-origin: 50% 50%;
+        } }
+@keyframes spin {
+  0%   { transform:rotate(0deg);
+         transform-origin: 50% 50%; }
+  50%  { transform:rotate(45deg);
+         transform-origin: 50% 50%; }
+  100% { transform:rotate(0deg);
+         transform-origin: 50% 50%; } }
