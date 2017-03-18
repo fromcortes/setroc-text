@@ -4,7 +4,7 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="ma0 pa0 w-100">
+      <div className="ma0 pa0 w-100 animated fadeIn">
         <div className="w-100 h01 bg-rainbow" />
         <div className="fl mw6 w-100 ph4 pv3">
           <h1 className="f2 fw4 lh-copy">Hey <span className="absolute spin">👋</span><br />I'm Dennis Cortés.</h1>
