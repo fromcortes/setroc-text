@@ -7,7 +7,7 @@ class App extends Component {
       <div className="ma0 pa0 w-100 animated fadeIn">
         <div className="w-100 h01 bg-rainbow" />
         <div className="fl mw6 w-100 ph4 pt3">
-          <h1 className="f2 fw4 lh-copy">Hey <span className="absolute spin">👋</span><br />I'm Dennis Cortés.</h1>
+          <h1 className="f3 fw4 lh-copy">Hey <span className="absolute spin">👋</span><br />I'm Dennis Cortés.</h1>
           <h2 className="f5 fw4 lh-copy mb4">Designer, Illustrator, Developer, &amp; Writer.<br />Lead Designer at Satchel Health,<br />Co-Founder at Quarry.</h2>
           <h2 className="f6 fw4 lh-copy">New website coming soon, watch me<br />stream my process on <a className="black rainbow-hover" rel="noopener noreferrer" target="_blank" href="https://twitch.tv/cortesarts">Twitch.</a></h2>
           <p><a rel="noopener noreferrer" target="_blank" href="mailto:hi@cortes.us" className="f6 rainbow">hi@cortes.us</a></p>
