@@ -13,7 +13,7 @@ class App extends Component {
           <p><a rel="noopener noreferrer" target="_blank" href="mailto:hi@cortes.us" className="f6 rainbow">hi@cortes.us</a></p>
           <div id="Work">
             <ul className="list pl0 pv2">
-              <li className="pv1 link lh-title f6"><a className="black-50 rainbow-hover" rel="noopener noreferrer" target="_blank" href="https://dribbble.com/fromcortes">
+              <li className="pv1 link lh-title f6"><a className="black-50 rainbow-hover" rel="noopener noreferrer" target="_blank" href="https://medium.com/the-rate-of-change">
                 Blog
               </a></li>
               <li className="pv1 link lh-title f6"><a className="black-50 rainbow-hover" rel="noopener noreferrer" target="_blank" href="https://dribbble.com/fromcortes">
