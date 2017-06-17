@@ -1,14 +1,8 @@
 @import 'tachyons.min.css';
 
-p {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-a { text-decoration: none; }
-
-.sans-serif { font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif; }
-.h01        { height: .3rem; }
+.sans-serif     { font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif; }
+.h01            { height: .3rem; }
+.bg-lightest-pink  { background-color: #FFE0DB; }
 
 .bg-rainbow {
   background-color: #B7B7B7;
@@ -48,35 +42,6 @@ a { text-decoration: none; }
     95% { background-color: #FFC100; }
 }
 
-.spin {
-  -webkit-animation:spin 3s ease-in-out infinite;
-  -moz-animation:spin 3s ease-in-out infinite;
-  animation:spin 3s ease-in-out infinite;
-}
-
-@-moz-keyframes spin {
-  0%   { -moz-transform:rotate(0deg);
-         -moz-transform-origin: 50% 50%; }
-  50%  { -moz-transform:rotate(45deg);
-         -moz-transform-origin: 50% 50%; }
-  100% { -moz-transform: rotate(0deg);
-         -moz-transform-origin: 50% 50%; } }
-@-webkit-keyframes spin {
-  0%   { -webkit-transform:rotate(0deg);
-         -webkit-transform-origin: 50% 50%; }
-  50%  { -webkit-transform:rotate(45deg);
-         -webkit-transform-origin: 50% 50%; }
-  100% { -webkit-transform: rotate(0deg);
-         -webkit-transform-origin: 50% 50%;
-        } }
-@keyframes spin {
-  0%   { transform:rotate(0deg);
-         transform-origin: 50% 50%; }
-  50%  { transform:rotate(45deg);
-         transform-origin: 50% 50%; }
-  100% { transform:rotate(0deg);
-         transform-origin: 50% 50%; } }
-
 .animated {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
@@ -97,4 +62,11 @@ a { text-decoration: none; }
 .fadeIn {
  -webkit-animation-name: fadeIn;
  animation-name: fadeIn;
+}
+
+
+/*CUSTOM*/
+.nav-link:hover {
+  border-bottom: solid 2px lightgray;
+  padding-bottom: 0.5rem;
 }
